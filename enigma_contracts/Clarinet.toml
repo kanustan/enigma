@@ -14,6 +14,11 @@ epoch = 2.5
 path = 'contracts/storage_with_admin_role.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.voting_with_offline_vote_submission_support]
+path = 'contracts/voting_with_offline_vote_submission_support.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
